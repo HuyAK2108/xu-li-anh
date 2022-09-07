@@ -1,6 +1,17 @@
 import cv2
+import os
+import datetime
 
-path = 'D:/Python/xu li anh/stm32.png'
+path = 'D:/Python/xu li anh/huy 1.jpg'
+# mylist = os.listdir(path)
+
+# images = []
+# imgLabel = []
+
+# for cl in mylist:
+#     curimg=cv2.imread(f'{path}\\{cl}')
+#     images.append(curimg)
+#     imgLabel.append(os.path.splitext(cl)[0])
 
 img = cv2.imread(path)
 print('do cao anh:',img.shape[0])
